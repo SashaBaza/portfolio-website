@@ -14,6 +14,7 @@ const data = [
     image: IMG1,
     language: 'javascript',
     title: 'Calculator JS',
+    technologies: 'HTML5, CSS3, JavaScript',
     github: "https://github.com/SashaBaza/calculator-pro",
   },
   { 
@@ -21,6 +22,7 @@ const data = [
     image: IMG2,
     language: 'javascript',
     title: 'First Slider JS',
+    technologies: 'HTML5, CSS3, JavaScript',
     github: "https://github.com/SashaBaza/first-slider-js",
   },
   {
@@ -28,18 +30,21 @@ const data = [
     image: IMG3,
     language: 'javascript',
     title: 'Quiz JS',
+    technologies: 'HTML5, CSS3, JavaScript',
     github: "https://github.com/SashaBaza/quiz-js",
   },
   {
     id: 4,
     image: IMG4,
     title: 'This is a portfolio item title',
+    technologies: '',
     github: "https://github.com",
   },
   {
     id: 5,
     image: IMG5,
     title: 'This is a portfolio item title',
+    technologies: '',
     github: "https://github.com",
   }, 
   {
@@ -47,28 +52,9 @@ const data = [
     language: 'javascript',
     image: IMG6,
     title: 'This is a portfolio item title',
+    technologies: '',
     github: "https://github.com",
   },
-  {
-    id: 7,
-    language: 'react',
-    image: IMG1,
-    title: 'This is a portfolio item title',
-    github: "https://github.com",
-  }, 
-  {
-    id: 8,
-    image: IMG2,
-    title: 'This is a portfolio item title',
-    github: "https://github.com",
-  },
-  {
-    id: 9,
-    language: 'javascript',
-    image: IMG4,
-    title: 'This is a portfolio item title',
-    github: "https://github.com",
-  }
 ] 
 
 const Portfolio = ({addToRefs}) => {
@@ -101,14 +87,14 @@ const Portfolio = ({addToRefs}) => {
   const filterHandler = () => {
     switch (project) {
       case 'javascript': 
-      setfilteredPortfolio(data.filter(project => project.language === 'javascript'))      
-      break;
+        setfilteredPortfolio(data.filter(project => project.language === 'javascript'))      
+        break;
       case 'react':
         setfilteredPortfolio(data.filter(project => project.language === 'react'))
         break;
-        default:
-          setfilteredPortfolio(data)
-          break;
+      default:
+        setfilteredPortfolio(data)
+        break;
     }
   }
 
@@ -125,7 +111,7 @@ const Portfolio = ({addToRefs}) => {
 
       <div className="container portfolio__container">
         {
-          filteredPortfolio.map(({id, image, title, github}) => {
+          filteredPortfolio.map(({id, image, title, technologies, github}) => {
             return(
               <AnimatePresence key={id} exitBeforeEnter>
                 <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} transition={{ duration: 1 }} key={id} className='card' >
@@ -137,8 +123,8 @@ const Portfolio = ({addToRefs}) => {
                           <h2>{title}</h2>
                         </div>
                         <div className="card__body">
-                          <h3>Title</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, laboriosam.</p>
+                          <h3>Using</h3>
+                          <p>{technologies}</p>
                           <a href={github} className='btn' target='_blank'>Github</a>
                         </div>
                       </div>
