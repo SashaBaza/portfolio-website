@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.243aad1f.css",
-    "main.js": "/portfolio-website/static/js/main.e8fcc62b.js",
+    "main.css": "/portfolio-website/static/css/main.8fe51b98.css",
+    "main.js": "/portfolio-website/static/js/main.5300744b.js",
     "static/media/me-about.jpg": "/portfolio-website/static/media/me-about.af687c8f867e979b90ee.jpg",
+    "static/media/Bazylevych_Oleksandr_Front-End-Developer_CV.pdf": "/portfolio-website/static/media/Bazylevych_Oleksandr_Front-End-Developer_CV.f8fd098e16c4df72df9c.pdf",
     "static/media/me.png": "/portfolio-website/static/media/me.d886861ce864bdad6180.png",
     "static/media/Slider.png": "/portfolio-website/static/media/Slider.908ac98d7740416a297b.png",
     "static/media/client1.jpg": "/portfolio-website/static/media/client1.e3724a5ed5cdf8ebd516.jpg",
     "static/media/client3.jpg": "/portfolio-website/static/media/client3.54ade121850925cbd21e.jpg",
-    "static/media/CV.pdf": "/portfolio-website/static/media/CV.7ae465421ae8da0c5b15.pdf",
+    "static/media/Chat.png": "/portfolio-website/static/media/Chat.86b835d143efc00691ab.png",
     "static/media/client4.jpg": "/portfolio-website/static/media/client4.f98d5e0d09a4faed9b8e.jpg",
     "static/media/client2.jpg": "/portfolio-website/static/media/client2.30722c4684060926b82c.jpg",
     "static/media/Calculator.png": "/portfolio-website/static/media/Calculator.0f17720363e286017f7b.png",
     "static/media/i4.webp": "/portfolio-website/static/media/i4.45b0c5872bb38a54d522.webp",
-    "static/media/i3.webp": "/portfolio-website/static/media/i3.9691f921f5acd779b3ef.webp",
     "static/media/i5.webp": "/portfolio-website/static/media/i5.566dd4cd5bc45df81216.webp",
     "static/media/Quiz.png": "/portfolio-website/static/media/Quiz.a80543fd4603f23f0c4f.png",
     "index.html": "/portfolio-website/index.html",
-    "main.243aad1f.css.map": "/portfolio-website/static/css/main.243aad1f.css.map",
-    "main.e8fcc62b.js.map": "/portfolio-website/static/js/main.e8fcc62b.js.map"
+    "main.8fe51b98.css.map": "/portfolio-website/static/css/main.8fe51b98.css.map",
+    "main.5300744b.js.map": "/portfolio-website/static/js/main.5300744b.js.map"
   },
   "entrypoints": [
-    "static/css/main.243aad1f.css",
-    "static/js/main.e8fcc62b.js"
+    "static/css/main.8fe51b98.css",
+    "static/js/main.5300744b.js"
   ]
 }
