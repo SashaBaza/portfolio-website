@@ -4,7 +4,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/Calculator.png'
 import IMG2 from '../../assets/Slider.png'
 import IMG3 from '../../assets/Quiz.png'
-import IMG4 from '../../assets/i3.webp'
+import IMG4 from '../../assets/Chat.png'
 import IMG5 from '../../assets/i4.webp'
 import IMG6 from '../../assets/i5.webp'
 
@@ -36,9 +36,10 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'This is a portfolio item title',
-    technologies: '',
-    github: "https://github.com",
+    language: 'react',
+    title: 'Chat in React',
+    technologies: 'HTML5, CSS3, JavaScript, React JS',
+    github: "https://github.com/SashaBaza/let-is-speak",
   },
   {
     id: 5,
